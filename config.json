@@ -1,0 +1,53 @@
+{
+  "type": "network",
+  "version": "1.0",
+  "data": "data.json",
+  "logo": {
+    "file": "",
+    "link": "",
+    "text": ""
+  },
+  "text": {
+    "more": "",
+    "intro": "Простите меня за столь примитивную палитру - я поставила такую, она была симпатичной, а обратно поменять не смогла.\nПопыталась распределить контакты по разным сторонам - так, помимо ребёр расположение узелков показывает их принадлежность к каким-то другим группам. Например Артём Шиков, который выделен красынм, но стоит рядом с Дарьей Кипеловой - мой однокурсник родом из моего города. Поэтому он, будучи \"красным\", стоит посередине. ",
+    "title": ""
+  },
+  "legend": {
+    "edgeLabel": "Рёбра - связи между друзьями. Они могут дружить друг с другом (иногда без моего ведома, переплетая разные группы. Это позволительно) ",
+    "colorLabel": "Красный цвет - мои друзья из университета; коричневый - редакция HSE Press; пастельно-рыжий - ребята из Школы тренинга; тёмно-рыжий - семья; оранжевый - друзья из родного города; рыжий - одноклассники и люди из школы; светло-оранжевый (посередине) - люди, с которыми я играю в ЧГК; серый - отщепенцы, то есть нет - те, с которыми я общаюсь отдельно и независимо ото всех ",
+    "nodeLabel": "Узлы - мои друзья в вк. Чем крупнее узелок, тем с большим количеством людей общается этот человек."
+  },
+  "features": {
+    "search": true,
+    "groupSelectorAttribute": "city",
+    "hoverBehavior": "default"
+  },
+  "informationPanel": {
+    "groupByEdgeDirection": false,
+    "imageAttribute": false
+  },
+  "sigma": {
+    "drawingProperties": {
+      "defaultEdgeType": "curve",
+      "defaultHoverLabelBGColor": "#002147",
+      "defaultLabelBGColor": "#ddd",
+      "activeFontStyle": "bold",
+      "defaultLabelColor": "#000",
+      "labelThreshold": 10,
+      "defaultLabelHoverColor": "#fff",
+      "fontStyle": "bold",
+      "hoverFontStyle": "bold",
+      "defaultLabelSize": 14
+    },
+    "graphProperties": {
+      "maxEdgeSize": 0.5,
+      "minEdgeSize": 0.2,
+      "minNodeSize": 1,
+      "maxNodeSize": 7
+    },
+    "mouseProperties": {
+      "maxRatio": 20,
+      "minRatio": 0.75
+    }
+  }
+}
